@@ -1,0 +1,77 @@
+.container-fluid{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+
+}
+
+.mainContainer{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+  background-image: linear-gradient(rgb(25, 180, 241),rgb(9, 1, 66));
+  padding: 20px;
+}
+
+.textContainer{
+  border: none;
+  min-width: 40vw;
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  background-color: rgb(180, 191, 235);
+
+
+
+}
+.button{
+  height: 65px;
+  
+}
+
+.editRoom{
+  background-color: rgba(4, 106, 65, 0.665);
+  color: aliceblue;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  left:200px;
+  max-width: 500px;
+ 
+ 
+}
+.editText{
+  max-width: 250px; 
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+  
+
+.edit{
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+
+}
+.AnswerContainer{
+
+  background-color: rgba(63, 64, 71, 0.821);
+  position: relative;
+  right: 7%;
+  color: aliceblue;
+
+}
+
