@@ -8,13 +8,13 @@ An AI-powered chatbot built using React.js and Axios, allowing users to interact
 - ✅ AI-powered response generation
 - ✅ Editable questions before submission
 - ✅ Loading indicator for API requests
-- ✅ Mobile friendly UI
+- ✅ Device friendly UI
 
 
 ## 🛠️ Tech Stack
 - **Frontend**: React.js (useState, Axios)
 - **Backend API**: Google Gemini AI API
-- **Styling framwork**: Bootstrap
+- **Styling framework**: Bootstrap
 - **Icons libraries** : React Icons
 
 ## 🔧 Installation Guide
