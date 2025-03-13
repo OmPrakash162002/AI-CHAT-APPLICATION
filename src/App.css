@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  
+}
+
+
+
 .container-fluid{
  
   display: flex;
@@ -23,7 +36,8 @@
 
 .textContainer{
   border: none;
-  min-width: 40vw;
+  min-width: 90%;
+  width: 100%;
   border-radius: 20px;
   padding: 10px;
   outline: none;
@@ -46,9 +60,9 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  position: relative;
-  left:200px;
-  max-width: 500px;
+  max-width: 100%;
+  word-wrap: break-word;
+  margin-left: 80px;
  
  
 }
@@ -69,9 +83,8 @@
 .AnswerContainer{
 
   background-color: rgba(63, 64, 71, 0.821);
-  position: relative;
-  right: 7%;
   color: aliceblue;
+  margin-right: 80px;
 
 }
 
