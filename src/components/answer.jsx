@@ -6,7 +6,8 @@ export const Answers =({answers})=>{
         <div
         className="AnswerContainer"
         style={{
-          maxWidth: "30vw",
+          maxWidth: "80%",
+          width: "100%",
           maxHeight: "70vh",
           padding: "20px",
           whiteSpace: "pre-wrap",

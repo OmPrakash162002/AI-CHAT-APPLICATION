@@ -31,7 +31,6 @@ An AI-powered chatbot built using React.js and Axios, allowing users to interact
    npm i bootstrap@latest
 
    npm install react-icons --save
- 
    ```
 3. Start the development server:
    ```bash
