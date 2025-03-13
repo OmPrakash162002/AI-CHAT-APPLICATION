@@ -8,6 +8,7 @@ An AI-powered chatbot built using React.js and Axios, allowing users to interact
 - ✅ AI-powered response generation
 - ✅ Editable questions before submission
 - ✅ Loading indicator for API requests
+- ✅ Mobile friendly UI
 
 
 ## 🛠️ Tech Stack
