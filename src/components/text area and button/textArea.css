@@ -1,0 +1,27 @@
+
+
+.container-fluid{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+  
+  }
+
+ .textContainer{
+    border: none;
+    min-width: 90%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(180, 191, 235);
+  }
+
+  .button{
+    height: 65px;
+    
+  }

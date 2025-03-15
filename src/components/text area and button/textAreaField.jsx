@@ -1,4 +1,5 @@
 import { FaArrowCircleUp } from "react-icons/fa";
+import './textArea.css'
 
  export const TextAreaField =({handelOnButtonClick,que,set})=>{
 

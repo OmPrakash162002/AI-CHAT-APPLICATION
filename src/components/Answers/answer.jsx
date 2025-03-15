@@ -1,3 +1,4 @@
+import "./Answers.css"
 
 
 export const Answers =({answers})=>{

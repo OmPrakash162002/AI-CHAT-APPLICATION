@@ -1,8 +1,8 @@
 import { useState,useRef } from "react";
 import axios from "axios";
-import { EditRoom } from "./editRoom";
-import { Answers } from "./answer";
-import { TextAreaField } from "./textAreaField";
+import { EditRoom } from "./EditRoom/editRoom";
+import { Answers } from "./Answers/answer";
+import { TextAreaField } from "./text area and button/textAreaField";
 import { Loading } from "./loading";
 
 export const Aiapp =()=>{
@@ -59,7 +59,7 @@ export const Aiapp =()=>{
     <div className="mainContainer">
         <h1 style={{color: "black"}}>AI CHAT APP</h1>
 
-        {state.input && <EditRoom input={state.input} handleEdit={handleEditFunk}  ></EditRoom>}  {/* useing conditional redring to show editRoom component*/}
+        {state.input && <EditRoom input={state.input} handleEdit={handleEditFunk}  ></EditRoom>} 
         
         {state.answer ?<Answers answers = {state.answer}></Answers>:<Loading lode ={state.loading}></Loading>}
 

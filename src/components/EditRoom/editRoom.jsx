@@ -1,4 +1,5 @@
 import { FaEdit } from "react-icons/fa";
+import "./EditRoom.css"
 
 export const EditRoom =({input,handleEdit}) =>{
     return (
