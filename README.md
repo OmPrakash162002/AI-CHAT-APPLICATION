@@ -9,6 +9,8 @@ An AI-powered chatbot built using React.js and Axios, allowing users to interact
 - ✅ Editable questions before submission
 - ✅ Loading indicator for API requests
 - ✅ Device friendly UI
+- ✅ Sidebar for saving previously asked questions in local storage
+- ✅ Questions are stored in local storege, you can access it even if browser is refreshed
 
 
 ## 🛠️ Tech Stack
@@ -47,7 +49,6 @@ An AI-powered chatbot built using React.js and Axios, allowing users to interact
 - summary button
 - Light mode support 
 - Speech-to-text functionality 🎙️
-- Better error handling 🚨
 - Enhanced UI animations ✨
 
 ## 💡 Contributing
