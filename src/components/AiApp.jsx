@@ -27,7 +27,7 @@ export const Aiapp =()=>{
  let  getAnswer = async(textQue)=>{
 
    const response = await axios({
-      url : "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyD5nzabjlYV3JMzzBvVs2rDcWQ2ox-f_Sc",
+      url : `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${import.meta.env.VITE_API_KEY}`,
       method : "post",
       data : {
   "contents": [{
