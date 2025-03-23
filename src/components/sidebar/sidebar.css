@@ -1,0 +1,61 @@
+.sidebar{
+    min-height: 100vh;
+    min-width: 60px;
+    background-color: rgb(41, 46, 52);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    filter: drop-shadow(10px 10px 15px rgba(1, 22, 46, 0.889));
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.menu{
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+   
+}
+
+.newChat,.queBox{
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: first baseline;
+    padding: 10px 15px;
+    gap: 10px;
+    background-color: rgb(216, 245, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.newChat p {
+    margin-bottom: 0px;
+}
+
+.queBox p {
+    margin-bottom: 0px;
+    max-width: 12rem;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.queBox:hover{
+    background-color: rgba(183, 221, 234, 0.892);
+    transition: 0.5s;
+}
+.newChat:hover{
+    background-color: rgba(183, 221, 234, 0.892);
+    transition: 0.5s;
+}
+.Recent{
+    display: flex;
+    flex-direction: column;
+    max-height: 70vh;
+    overflow-y:auto ;   
+}

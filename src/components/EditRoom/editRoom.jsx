@@ -3,6 +3,8 @@ import "./EditRoom.css"
 
 export const EditRoom =({input,handleEdit}) =>{
     return (
+
+    <div className="edit-container">
 <div className="editRoom">
    
    <div className="editText">{input}</div>
@@ -10,6 +12,6 @@ export const EditRoom =({input,handleEdit}) =>{
     <FaEdit onClick={handleEdit}/>
     </span>
 </div>
-
+</div>
     )
 }

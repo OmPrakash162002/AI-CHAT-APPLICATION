@@ -2,15 +2,15 @@
 .editRoom{
     background-color: rgba(4, 106, 65, 0.665);
     color: aliceblue;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    max-width: 100%;
+    max-width: 20vw;
+    min-width: 200px;
     word-wrap: break-word;
-    margin-left: 80px;
    
    
   }
@@ -26,5 +26,18 @@
     margin-left: 20px;
     display: flex;
     align-items: center;
+    cursor: pointer;
   
+  }
+
+  .edit-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-width: 240px;
+    max-width: 70%;
+    width: 100%;
+
+
   }

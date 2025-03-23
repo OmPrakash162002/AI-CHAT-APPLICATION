@@ -7,7 +7,8 @@ export const Answers =({answers})=>{
         <div
         className="AnswerContainer"
         style={{
-          maxWidth: "80%",
+          minWidth : "240px",
+          maxWidth: "70%",
           width: "100%",
           maxHeight: "70vh",
           padding: "20px",
@@ -15,6 +16,9 @@ export const Answers =({answers})=>{
           overflowY: "auto",
           textAlign: "left",
           borderRadius: "20px",
+        
+          
+          
         }}
       >{answers}
      

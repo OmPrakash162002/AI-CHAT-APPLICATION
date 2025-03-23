@@ -1,26 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html, body {
   width: 100%;
+  overflow-x: hidden;
   
 }
 
 .mainContainer{
  
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  height: 100vh;
+  flex-direction: row;
+  align-items:self-end;
+  justify-content:flex-start;
+  gap: 5px;
+  min-height: 100vh;
+  min-width: 100vw;
   background-image: linear-gradient(rgb(25, 180, 241),rgb(9, 1, 66));
-  padding: 20px;
+ 
+ 
 }
 
+.all-items{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  min-height: 100vh;
+  width: 90%;
+  max-width: 100%;
+  margin-left: 70px;
+
+  
+}
+.EditRoom-Answers{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.loading{
+ 
+  margin-top: 30px;
+
+}
 
 
 

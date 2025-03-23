@@ -8,17 +8,19 @@
     align-items: center;
     gap: 20px;
     width: 200px;
+    margin-left: 20px;
+    max-width: 40vw;
   
   }
 
  .textContainer{
     border: none;
-    min-width: 90%;
-    width: 100%;
+    min-width: 50vw;
+    max-width: 50vw;
     border-radius: 20px;
     padding: 10px;
     outline: none;
-    background-color: rgb(180, 191, 235);
+    background-color: rgb(195, 240, 255);
   }
 
   .button{
