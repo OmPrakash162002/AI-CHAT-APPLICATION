@@ -1,6 +1,12 @@
- export const Loading =({lode}) =>{
+import { useContext } from "react"
+import { AiContext } from "../store/context"
+
+ export const Loading =() =>{
+
+  const{state} =  useContext(AiContext);
+  
     return (<>
-        {lode &&
+        {state.loading &&
         <div className="loading">
              <div className="spinner-grow text-light" role="status">
   <span className="visually-hidden"></span>

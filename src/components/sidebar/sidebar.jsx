@@ -2,10 +2,13 @@ import { TiThMenuOutline } from "react-icons/ti";
 import { FaPlus } from "react-icons/fa6";
 import { MdOutlineQuestionAnswer } from "react-icons/md";
 import './sidebar.css'
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { AiContext } from "../../store/context";
 
 
-function Sidebar({set,sidebarQue, getAnsFunk }) {
+function Sidebar() {
+
+ const {state,getAnswer, setState}= useContext(AiContext);
 
   const [showSidebar, setShowSidebar] = useState(false);
 
@@ -16,7 +19,7 @@ function Sidebar({set,sidebarQue, getAnsFunk }) {
 
   const handelNewChat =()=>{
     localStorage.removeItem("sidebarQue")
-    set((pre)=>({
+    setState((pre)=>({
       ...pre,
       question : "",
       input : "",
@@ -29,9 +32,9 @@ function Sidebar({set,sidebarQue, getAnsFunk }) {
 
   const handelQueText =(Quetext)=>{
    
-   getAnsFunk(Quetext)
+   getAnswer(Quetext)
     
-    set((pre)=> ({...pre, answer :"", question: "", input : Quetext, loading : true, captionShow : true}))
+    setState((pre)=> ({...pre, answer :"", question: "", input : Quetext, loading : true, captionShow : true}))
     setShowSidebar((pre)=>!pre)
      
   }
@@ -48,7 +51,7 @@ function Sidebar({set,sidebarQue, getAnsFunk }) {
 
         <p className="res" style={{color:"white"}}>Recent</p>
         
-       {sidebarQue.map((val,index)=> <div key={index} onClick={()=>handelQueText(val)} className="queBox">
+       {state.sidebarQuestions.map((val,index)=> <div key={index} onClick={()=>handelQueText(val)} className="queBox">
          < MdOutlineQuestionAnswer></MdOutlineQuestionAnswer>
            <p>{val}</p>
         </div> ) } 

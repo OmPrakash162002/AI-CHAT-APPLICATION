@@ -1,7 +1,11 @@
+import { useContext } from "react";
 import "./Answers.css"
+import { AiContext } from "../../store/context";
 
 
 export const Answers =({answers})=>{
+
+ const {state}= useContext(AiContext);
     return (
       
         <div
@@ -20,7 +24,7 @@ export const Answers =({answers})=>{
           
           
         }}
-      >{answers}
+      >{state.answer}
      
       </div>
        
